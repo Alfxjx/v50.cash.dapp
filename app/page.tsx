@@ -5,12 +5,10 @@ import { TheFeature } from "@/components/kit/landing-page/TheFeature";
 import { TheHero } from "@/components/kit/landing-page/TheHero";
 import { ThePricing } from "@/components/kit/landing-page/ThePricing";
 
-
 export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-start justify-center">
-
       <TheHeader />
       <TheHero />
       <TheFeature />
